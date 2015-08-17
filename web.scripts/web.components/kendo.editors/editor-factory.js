@@ -1,0 +1,1 @@
+﻿define(["kendo.editors/multiselect","kendo.editors/select-box","kendo.editors/dropdownlist"],function(t,e,o){"use strict";var n=function(t){this.column=t};return _.extend(n.prototype,{multiSelect:function(e,o){t.call(this,e,o)},selectBox:function(t,o){e.call(this,t,o)},dropDownList:function(t,e){o.call(this,t,e)}}),n});

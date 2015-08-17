@@ -1,0 +1,1 @@
+﻿define(function(){"use strict";var t={render:function(){var t=_.result(this,"resources");this.$("[data-localized]").each(function(e,i){{var r=$(i),a=r.data("localized").split(":"),n=a[0];a[1]}t[n]&&(a[1]?r.find(a[1]).html(t[n]):r.html(t[n]))})}};return t});

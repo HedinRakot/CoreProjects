@@ -1,0 +1,1 @@
+﻿define(["widgets/kendo-select-box"],function(){"use strict";var e=function(e,t){{var l=this,i="collection_"+t.field;$('<select data-role="selectbox" multiple="multiple" data-bind="source: '+i+'" data-text-field="name" data-value-field="id" />').appendTo(e).attr("name",t.field)}t.model[i]=l.column.collection.toJSON()};return e});

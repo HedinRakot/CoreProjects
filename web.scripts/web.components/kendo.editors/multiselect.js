@@ -1,0 +1,1 @@
+﻿define(["kendo/kendo.multiselect"],function(){"use strict";var e=function(e,t){$("<select />").appendTo(e).attr("name",t.field).kendoMultiSelect({dataSource:this.column.collection.toJSON(),dataTextField:this.column.dataTextField,dataValueField:this.column.dataValueField,valuePrimitive:!0})};return e});

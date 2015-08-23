@@ -185,6 +185,7 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ActionResults\StreamActionResult.cs" />
@@ -241,6 +242,7 @@
     <Compile Include="Managers\EntityManager.cs" />
     <Compile Include="Managers\Manager.cs" />
     <Compile Include="Managers\ManagerBase.cs" />
+    <Compile Include="Managers\PrinterManagerBase.cs" />
     <Compile Include="Managers\ReadOnlyEntityManager.cs" />
     <Compile Include="Managers\ReadOnlyManagerBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

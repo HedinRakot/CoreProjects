@@ -1,6 +1,7 @@
 ﻿using System;
 using CoreBase.ManagerInterfaces;
 using CoreBase.Entities;
+using System.Threading.Tasks;
 
 namespace CoreBase.Managers
 {
@@ -50,6 +51,11 @@ namespace CoreBase.Managers
 			DataContext.SaveChanges();
 		}
 
-		#endregion
-	}
+        public virtual async Task<int> SaveChangesAsynchron()
+        {
+            return await DataContext.SaveChangesAsynchron();
+        }
+
+        #endregion
+    }
 }

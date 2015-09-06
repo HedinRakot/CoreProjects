@@ -1,4 +1,5 @@
 ﻿using CoreBase.Entities;
+using System.Threading.Tasks;
 
 namespace CoreBase.ManagerInterfaces
 {
@@ -20,5 +21,7 @@ namespace CoreBase.ManagerInterfaces
         /// 
         /// </summary>
 		void SaveChanges();
-	}    
+
+        Task<int> SaveChangesAsynchron();
+    }    
 }

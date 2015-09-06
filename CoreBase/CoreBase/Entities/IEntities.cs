@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace CoreBase.Entities
 {
@@ -54,5 +55,7 @@ namespace CoreBase.Entities
         ///     Save all changes from underlying context to database
         /// </summary>
         void SaveChanges();
+
+        Task<int> SaveChangesAsynchron();
     }
 }
